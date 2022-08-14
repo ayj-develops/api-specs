@@ -11,23 +11,19 @@ title = "Projects"
 {{< block "grid-2" >}}
 {{< column >}}
 
-# Compose your Docs with **Ease**.
-
-Compose is a lean `Hugo` domentation theme, inspired by [forestry.io](https://forestry.io/docs/welcome/).
+# AYJ Develops Club Platform API Docs
 
 {{< tip "warning" >}}
-Feel free to open a [PR](https://github.com/onweru/compose/pulls), raise an [issue](https://github.com/onweru/compose/issues/new/choose "Open a Github Issue")(s) or request new feature(s). {{< /tip >}}
+Feel free to open a [PR](https://github.com/ayj-develops/server-master/pulls "Make a pull request"), raise an [issue](https://github.com/ayj-develops/server-master/issues "Open a Github Issue")(s) or request new feature(s). {{< /tip >}}
 
-{{< tip >}}
-You can generate diagrams, flowcharts, and piecharts from text in a similar manner as markdown using [mermaid](./docs/compose/mermaid/).
+{{< tip >}} 
 
-Or, [generate graphs, charts](docs/compose/graphs-charts-tables/#show-a-pie-doughnut--bar-chart-at-once) and tables from a csv, ~~or a json~~ file.
-{{< /tip >}}
+Additionally, all endpoints are secured through firebase middleware, so generate a valid firebase access token before requests through the endpoint {{< /tip >}}
 
-{{< button "docs/compose/" "Read the Docs" >}}{{< button "https://github.com/onweru/compose" "Download Theme" >}}
-{{< /column >}}
+{{< button "docs/compose/" "Read the Docs" >}}{{< button "[https://github.com/ayj-develops/server-master](https://github.com/ayj-develops/server-master "https://github.com/ayj-develops/server-master")" "Repository" >}} {{< /column >}}
 
 {{< column >}}
-![diy](/images/scribble.jpg)
+
+![](/uploads/ayj-image.png)
 {{< /column >}}
 {{< /block >}}
