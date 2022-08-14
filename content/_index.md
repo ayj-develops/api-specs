@@ -20,7 +20,9 @@ Feel free to open a [PR](https://github.com/ayj-develops/server-master/pulls "Ma
 
 Additionally, all endpoints are secured through firebase middleware, so generate a valid firebase access token before requests through the endpoint {{< /tip >}}
 
-{{< button "docs/compose/" "Read the Docs" >}}{{< button [`https://github.com/ayj-develops/server-master`](https://github.com/ayj-develops/server-master "Github Link") "Repository" >}} {{< /column >}}
+{{< button "docs/compose/" "Read the Docs" >}}{{ <button "[https://github.com/ayj-develops/server-master](https://github.com/ayj-develops/server-master "https://github.com/ayj-develops/server-master")" "Github Repo" > }}
+
+{{< /column >}}
 
 {{< column >}}
 
