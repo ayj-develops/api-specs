@@ -1,15 +1,14 @@
 ---
 title: AYJ Club Platform Docs
 weight: "1"
-draft: true
 
 ---
-The AYJ Club Platform API is structured around [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) and 
+The AYJ Club Platform API is structured around [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) and the API provides a set of urls for other apps to interact with.
 
-Please note that the features listed under each theme are independent of each other. That is to say, some features may only be found in one theme and not in both.
+The AYJ Club Platform API **accepts** [form-encoded data](), [multi-part form data](), and returns [JSON-encoded]() responses. It also uses standard [HTTP status codes](), authentication, and verbs.
 
-<!-- That content is better than dummy lorem ipsum 2) That content serves a good real-world demo for this theme 3) Publish more structured docs for each theme which are better than long blocky READMEs -->
+### Quicklinks
 
-{{< button "./compose/" "Compose Theme Docs" "mb-1" >}}
-
-{{< button "./clarity/" "Clarity Theme Docs" >}}
+* Response formats
+* Request formats
+* AYJ Club Platform HTTP Status Codes
