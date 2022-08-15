@@ -1,4 +1,38 @@
 ---
 label: Blog Post
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: title of the post
+- name: tag
+  type: tag_list
+  default: []
+  label: Tag
+  description: Category of blog post
+- name: date
+  type: datetime
+  label: Date
+  description: Date of the blog post
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: authors
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Authors
+  description: Add author names
