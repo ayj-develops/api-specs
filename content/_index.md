@@ -1,5 +1,5 @@
 +++
-title = "Compose"
+title = "AYJ Develops Platform Spec"
 [data]
 baseChartOn = 3
 colors = ["#627c62", "#11819b", "#ef7f1a", "#4e1154"]
@@ -14,15 +14,13 @@ title = "Projects"
 # AYJ Develops Club Platform API Docs
 
 {{< tip "warning" >}}
-Feel free to open a [PR](https://github.com/ayj-develops/server-master/pulls "Make a pull request"), raise an [issue](https://github.com/ayj-develops/server-master/issues "Open a Github Issue")(s) or request new feature(s). {{< /tip >}}
+Feel free to open a [PR](https://github.com/ayj-develops/server-master/pulls "Make a pull request"), raise an [issue](https://github.com/ayj-develops/server-master/issues "Open a Github Issue")(s). {{< /tip >}}
 
 {{< tip >}}
 
 Additionally, all endpoints are secured through firebase middleware, so generate a valid firebase access token before requests through the endpoint {{< /tip >}}
 
-{{< button "docs/compose/" "Read the Docs" >}}
-
-{{< button "/" "Github Repo" >}}
+{{< button "docs/compose/" "Read the Docs" >}}  {{< button "/" "Github Repo" >}}
 
 {{< /column >}}
 
