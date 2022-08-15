@@ -1,8 +1,4 @@
 #  menu items
-[[main]]
-  name = "Blog"
-  weight = 5
-  url = "blog/"
 
 [[main]]
   name = "Docs"
@@ -10,14 +6,14 @@
   url = "docs/"
 
 [[main]]
-  name = "Tutorials"
-  weight = 2
-  url = "tutorials/"
+  name = "Blog"
+  weight = 5
+  url = "blog/"
 
 [[main]]
-  name = "Example"
-  weight = 3
-  url = "https://docs.neuralvibes.com"
+  name = "Apply"
+  weight = 5
+  url = "apply/"
 
 # [[main]]
 #   name = "Blog"
