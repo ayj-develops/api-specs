@@ -1,12 +1,10 @@
 ---
-title: "Themes' Docs"
-weight: 1
+title: AYJ Club Platform Docs
+weight: "1"
+draft: true
+
 ---
-
-These docs consists of two parts:
-
-1. Hugo Compose Themes docs
-2. Hugo Clarity Theme docs.
+The AYJ Club Platform API is structured around [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) and 
 
 Please note that the features listed under each theme are independent of each other. That is to say, some features may only be found in one theme and not in both.
 
@@ -15,4 +13,3 @@ Please note that the features listed under each theme are independent of each ot
 {{< button "./compose/" "Compose Theme Docs" "mb-1" >}}
 
 {{< button "./clarity/" "Clarity Theme Docs" >}}
-
