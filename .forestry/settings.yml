@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: config/defaults/_menu/menu.en.toml
+  label: Navbar menu
+  match: "**/*"
 - type: directory
   path: content
   label: Pages
