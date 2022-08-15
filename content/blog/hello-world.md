@@ -1,6 +1,6 @@
 +++
 date = 2022-08-15T20:25:46Z
-image = ""
+image = "/uploads/documentation.jpeg"
 tag = []
 title = "Hello, World!"
 
