@@ -29,3 +29,5 @@ fields:
   config:
     maxSize: 64
   label: Banner image
+pages:
+- content/blog/hello-world.md
