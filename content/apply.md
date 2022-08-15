@@ -11,6 +11,8 @@ Unfortunately, positions listed here are only available to A.Y Jackson Secondary
 
 {{< /tip >}}
 
+We'd love for you to be a part of this amazing team to help transform AYJ's club platform into a digital hub for communication and events!
+
 ## Positions
 
 ### Technical Writer
