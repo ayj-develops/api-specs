@@ -21,9 +21,9 @@ codeLineNumbers = false
 # iconsPath = 'icons/'
 
 # Site logo
-# [logo]
-#  lightMode = "images/compose.png"
-#  darkMode = "images/compose-light.png"
+[logo]
+  lightMode = "images/compose.png"
+  darkMode = "images/compose-light.png"
 
 [source]
   name = "GitHub"
