@@ -1,13 +1,8 @@
 baseURL = "/"
-title = "Compose Docs"
-enableRobotsTXT = true
-# this example loads the theme as hugo module
-# comment out line below, and uncomment the line after it if you prefer to load the theme normally
-theme = ["github.com/onweru/compose"] # edit this if you'ld rather use a fork of this repo
-# theme = "compose"
-enableGitInfo = true
-
 disableKinds = ["taxonomy", "taxonomyTerm"]
-
+enableGitInfo = true
+enableRobotsTXT = true
+theme = ["github.com/onweru/compose"]
+title = "Compose Docs"
 [outputs]
-  home = ["HTML", "RSS","JSON"]
+home = ["HTML", "RSS", "JSON"]
