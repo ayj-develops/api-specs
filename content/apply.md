@@ -22,4 +22,4 @@ We'd love for you to be a part of this amazing team to help transform AYJ's club
   * Familiarity with certain terms and keywords to explain code in a simple and easy to read manner
   * Good organization sense, e.g appropriately structuring documentation
   * Good communication abilities
-* \[**Apply Here**\]()
+* {{< button "" "Apply Here" >}}
