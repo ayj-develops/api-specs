@@ -5,14 +5,14 @@ uniqueHomePage = true # change to false to add sidebar to homepage
 
 blogDir = "blog" # can be posts, blog e.t.c
 
-repo = "https://github.com/onweru/compose"
+repo = "https://github.com/ayj-develops/server-master"
 
 time_format_blog = "Monday, January 02, 2006"
 time_format_default = "January 2, 2006"
 enableDarkMode = true # set to false to disable darkmode by default # user will still have the option to use dark mode
 
 # sets the maximum number of lines per codeblock. The codeblock will however be scrollable and expandable.
-codeMaxLines = 7
+codeMaxLines = 8
 
 # disable showing line numbers by default. Switch to `true` if you'd rather have them on.
 codeLineNumbers = false
@@ -29,10 +29,10 @@ codeLineNumbers = false
   name = "GitHub"
   iconLight = "images/GitHubMarkLight.svg"
   iconDark = "images/GitHubMarkDark.svg"
-  url = "https://github.com/onweru/compose/"
+  url = "https://github.com/ayj-develops/server-master/"
 
 # optional
 # attribution. Feel free to delete this
 [author]
-  name = "Weru"
-  url = "https://neuralvibes.com/author/"
+  name = "Made by the AYJ Develops Team with ❤️. Built with Compose, made by Weru 2022."
+  url = "https://github.com/ayj-develops/"
