@@ -5,8 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: config/defaults/**/**
-  label: Navbar menu
+  path: config/*
+  label: Config
 - type: directory
   path: content
   label: Pages
