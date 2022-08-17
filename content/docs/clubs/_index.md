@@ -1,5 +1,5 @@
 ---
-Title: `/clubs`
+Title: /clubs
 weight: 10
 ---
 

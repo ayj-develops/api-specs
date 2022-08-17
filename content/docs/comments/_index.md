@@ -1,5 +1,5 @@
 ---
-Title: `/comment`
+Title: /comment
 weight: 10
 ---
 

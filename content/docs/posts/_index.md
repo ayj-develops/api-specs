@@ -1,5 +1,5 @@
 ---
-Title: `/post`
+Title: /post
 weight: 10
 ---
 
