@@ -1,0 +1,61 @@
+title: AYJ Club Platform API Docs
+email: ayjwebmasters@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is a comprehensive reference for the AYJ Club Platform API. 
+  Includes code snippets and request/response formats for the 
+  front-end app integration.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+apispecs:
+  homepage_title: AYJ Club Platform API Docs
+  footer: AYJ Club Platform Team, 2022
+  content_license: "CC BY-NC-SA 4.0"
+  links:
+    github: ayj-develops
+    api_server: ayj-develops/server-master
+
+footer:
+  gh_edit_link_text: Edit this page on GitHub
+  gh_edit_repository: ayjdevelops/api-specs
+  gh_edit_branch: "main"
+  gh_edit_view_mode: "tree"
+  back_to_top: true
+  back_to_top_text: "Back to top"
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  docs:
+    output: true
+    permalink: /:collection/:name
+  club_endpoint:
+    output: true
+    permalink: /:collection/:name
+  comment_endpoint:
+    output: true
+    permalink: /:collection/:name
+  post_endpoint:
+    output: true
+    permalink: /:collection/:name
+  user_endpoint:
+    output: true
+    permalink: /:collection/:name
+  release_notes:
+    output: true
+    permalink: /:collection/:name
+  
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

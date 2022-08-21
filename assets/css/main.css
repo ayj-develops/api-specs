@@ -1,0 +1,12 @@
+a {
+  color: #4E82C2!important;
+  text-decoration:none!important;
+}
+
+a:visited {
+  color:#36649D!important;
+}
+
+a:hover {
+  color:#4CA3D7!important;
+}

@@ -1,0 +1,11 @@
+links:
+  - title: docs
+    url: /general
+  - title: about us
+    url: /about
+  - title: contact us
+    url: "mailto:ayjwebmasters@gmail.com"
+  - title: apply
+    url: /apply
+  - title: blog
+    url: /blog

@@ -1,8 +1,0 @@
-baseURL = "/"
-disableKinds = ["taxonomy", "taxonomyTerm"]
-enableGitInfo = true
-enableRobotsTXT = true
-theme = ["github.com/onweru/compose"]
-title = "Compose Docs"
-[outputs]
-home = ["HTML", "RSS", "JSON"]

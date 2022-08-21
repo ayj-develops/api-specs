@@ -1,0 +1,9 @@
+links:
+  - title: All Documentation
+    url: /general
+  - title: Authentication
+    url: /docs/authentication
+  - title: Errors
+    url: /docs/errors
+  - title: Request and Response Formats
+    url: /docs/formats

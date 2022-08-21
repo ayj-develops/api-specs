@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" name="top">
+{% include head.html %}
+<body>
+  <main class="">
+    <div class="bg-slate-100 border-solid border-b-2 grid grid-cols-1 h-[100px] content-center">
+      <div class="px-5 flex container justify-between text-3xl">
+        <div class="grow">
+          <img src="/assets/images/ayj_logo.png" alt="">
+        </div>
+        <a style="color: #000!important;" href="https://github.com/{{ site.apispecs.links.api_server }}">
+          <i class="fa fa-github text-3xl"></i>
+        </a>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 p-14">
+      <div class="pt-12 w-3/4">
+        <h1 class="text-3xl py-2">AYJ Club Platform API</h1>
+        <p class="text-slate-500">currently: <span><code>v0.1</code></span></p>
+        
+        <div class="py-3">
+          <div class="border-b-2 divide-slate-200"></div>
+        </div>
+        
+        <h1 class="font-bold text-xl">Documentation</h1>
+        
+        {% for page in site.data.docs.links %}
+          <a class="px-3 leading-relaxed" href="{{ page.url }}">{{ page.title }}</a>
+          <br>
+        {% endfor %}
+
+        <div class="py-3">
+          <div class="border-b-2 divide-slate-200"></div>
+        </div>
+
+        <h1 class="font-bold text-xl">Release Notes</h1>
+
+        {% for post in site.release_notes %}
+          <a class="px-3 leading-relaxed" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <br>
+        {% endfor %}
+
+      </div>
+      <div class="">
+        <img src="/assets/images/programmer.jpg" alt="">
+      </div>
+    </div>
+     
+    {{ content }}
+    {% include footer.html %}
+  </main>
+</body>
+</html>

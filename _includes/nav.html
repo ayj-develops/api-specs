@@ -1,0 +1,5 @@
+<nav>
+    {% for page in site.data.nav.links %}
+      <a class="px-3 text-sm" href="{{ page.url }}">{{ page.title }}</a>
+    {% endfor %}
+</nav>
