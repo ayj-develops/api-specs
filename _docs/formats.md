@@ -3,33 +3,55 @@ title: Request and Response Formats
 layout: default 
 ---
 
-# Error Handling
+## Common Object
 
-The AYJ Club Platform API uses the following error codes and statuses to indicate the success or failure of an API request. Generally, a `2xx` status code means success. A `4xx` status code usually means something is wrong with the parameters of the request, and a `5xx` status code means that there is something wrong with the AYJ Club Platform Server.
+All responses in the API share a common response object format, for consistency both on the developer end and on the client. 
 
-## Authentication
+Specific fields are added on top of the common response object for certain endpoints. While they differ, endpoint specific response objects still contain the required common object fields and may contain the optional common object fields.
 
-Errors that arise from authentication flows are documented in the [authentication]() documentation page, and contain a specific set of error types.
+### Fields
 
-## Status Code Summary
+|             |                                                                                                                          |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------ |
+| ok          | boolean, indicates success or failure                                                                                    |
+| error_id    | integer, refers to [status code]({{ site.baseurl }}/docs/errors )<br>[may be optional]({{ site.baseurl }}/docs/optional) |
+| error_name  | string<br>[may be optional]({{ site.baseurl }}/docs/optional)                                                            |
+| description | string<br>[may be optional]({{ site.baseurl }}/docs/optional)                                                            |
 
-| Code | Description | 
-| --- | --- |
-| 200 - OK | Everything worked as expected. |
-| 201 - Created | Usually for POST requests, the resource was created successfully. |
-| 400 - Bad Request | The request was unacceptable, usually because of a missing parameter or invalid header. |
-| 401 - Unauthorized | The request was unacceptable because of invalid access token. |
-| 403 - Forbidden | Your access level cannot unlock this endpoint. |
-| 404 - Not Found | The resource you're looking for couldn't be found. |
-| 409 - Conflict | Usually for POST requests, the resource you are trying to create already exists. |
-| 429 - Too Many Requests | Too many requests hit the API too quickly. |
-| 5xx - Server Error | For developers, please check the log to fix the server error. Something went wrong on the AYJ Club Platform Server. |
+### Example
 
+```json
+{
+  "ok": true,
+  "stuff": "some data from the API"
+}
+```
 
-## Error Types
+Refer to [error object example](#example-1) to view the common object response if something goes wrong.
 
-Each error given by the AYJ Club Platform API has a type attribute. This error type attribute can be handled automatically and you may refer to this table for a comprehensive description.
+## Error Object
 
-| Error | Description |
-| --- | --- |
-| 
+This is a typical error response object that is returned when something goes wrong.
+
+Please note that the `description` field is different than the `error_message` field on the common object responses. `description` provides extra commentary on the error type, while `error_message` is a direct stacktrace of the error.
+
+### Fields
+
+|             |                                    |
+| ----------- | ---------------------------------- |
+| description | string                             |
+| error_id    | integer, refers to [status code]() |
+| error_name  | string                             |
+
+### Example
+
+**Exceeded Character Limit**
+
+```json
+{
+  "ok": false,
+  "error_id": 400,
+  "error_name": "exceeded_char",
+  "description": "500 Character limit exceeded for new post body",
+}
+```

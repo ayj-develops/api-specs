@@ -10,9 +10,6 @@ permalink: pretty
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
 
 apispecs:
   homepage_title: AYJ Club Platform API Docs
@@ -22,13 +19,9 @@ apispecs:
     github: ayj-develops
     api_server: ayj-develops/server-master
 
-footer:
-  gh_edit_link_text: Edit this page on GitHub
-  gh_edit_repository: ayjdevelops/api-specs
+github_edit:
+  gh_edit_repository: ayj-develops/api-specs
   gh_edit_branch: "main"
-  gh_edit_view_mode: "tree"
-  back_to_top: true
-  back_to_top_text: "Back to top"
 
 collections:
   pages:
@@ -52,7 +45,6 @@ collections:
   release_notes:
     output: true
     permalink: /:collection/:name
-  
 
 # Build settings
 plugins:
