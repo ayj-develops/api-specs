@@ -20,4 +20,8 @@ Parameter names take in only one value, regardless of plurality. For example, th
 
 Queries can be performed through the API directly, and they are defined in each endpoint documentation page. Additionally, API responses will be compressed.
 
+All endpoints will stem from the base url: `/api/v0/...`
+
 ## All Endpoints
+
+[Jump to Endpoints Documentation]({{ site.baseurl }}/docs/endpoints)

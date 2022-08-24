@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" name="top">
 {% include head.html %}
+
 <body>
   <main class="">
     <div class="bg-slate-100 border-solid border-b-2 grid grid-cols-1 h-[100px] content-center">
@@ -16,17 +17,17 @@
     <div class="grid grid-cols-2 p-14">
       <div class="pt-12 w-3/4">
         <h1 class="text-3xl py-2">AYJ Club Platform API</h1>
-        <p class="text-slate-500">currently: <span><code>v0.1</code></span></p>
-        
+        <p class="text-slate-500">currently: <span><code>v0</code></span></p>
+
         <div class="py-3">
           <div class="border-b-2 divide-slate-200"></div>
         </div>
-        
+
         <h1 class="font-bold text-xl">Documentation</h1>
-        
+
         {% for page in site.data.docs.links %}
-          <a class="px-3 leading-relaxed" href="{{ page.url }}">{{ page.title }}</a>
-          <br>
+        <a class="px-3 leading-relaxed" href="{{ page.url }}">{{ page.title }}</a>
+        <br>
         {% endfor %}
 
         <div class="py-3">
@@ -36,8 +37,8 @@
         <h1 class="font-bold text-xl">Release Notes</h1>
 
         {% for post in site.release_notes %}
-          <a class="px-3 leading-relaxed" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-          <br>
+        <a class="px-3 leading-relaxed" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <br>
         {% endfor %}
 
       </div>
@@ -45,9 +46,10 @@
         <img src="/assets/images/programmer.jpg" alt="">
       </div>
     </div>
-     
+
     {{ content }}
     {% include footer.html %}
   </main>
 </body>
+
 </html>

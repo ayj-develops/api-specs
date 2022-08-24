@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" name="top">
+{% include head.html %}
+
+<body>
+  <main>
+    <div class="bg-slate-100 border-solid border-b-2 grid grid-cols-1 h-[100px] content-center">
+      <div class="px-5 flex container justify-between text-3xl">
+        <div class="grow">
+          <img src="/assets/images/ayj_logo.png" alt="">
+        </div>
+        <a style="color: #000!important;" href="https://github.com/{{ site.apispecs.links.api_server }}">
+          <i class="fa fa-github text-3xl"></i>
+        </a>
+      </div>
+    </div>
+    <div class="container mx-auto px-72 py-6 flex flex-row">
+      <a href="{{ site.baseurl }}/" class="pr-4">go back</a>
+      <a href="https://github.com/{{ site.github_edit.gh_edit_repository }}/tree/{{ site.github_edit.gh_edit_branch }}/{{ page.path }}"
+        class="pr-4">edit</a>
+    </div>
+    <div class="min-h-screen container mx-auto px-72 py-12">
+      <div class="border-b-2 pb-3">
+        <div class="flex">
+          <h1 class="text-3xl pr-4">Usage of <code>{{ page.title }}</code></h1>
+          {% assign reqtype = page.request_type %}
+          {% case reqtype %}
+          {% when "POST" %}
+          <span class="bg-[#07c] rounded-md py-0.2 px-1.5 text-white text-3xl">POST</span>
+          {% when "GET" %}
+          <span class="bg-[#07c] rounded-md py-0.2 px-1.5 text-white text-3xl">GET</span>
+          {% when "PUT" %}
+          <span class="bg-[#07c] rounded-md py-0.2 px-1.5 text-white text-3xl">PUT</span>
+          {% when "DELETE" %}
+          <span class="bg-[#07c] rounded-md py-0.2 px-1.5 text-white text-3xl">DELETE</span>
+          {% endcase %}
+        </div>
+      </div>
+      <article class="prose prose-lg prose-headings:font-normal max-w-full prose-pre:text-lg">
+        {{ content }}
+      </article>
+    </div>
+    {% include footer.html %}
+  </main>
+</body>
+
+</html>

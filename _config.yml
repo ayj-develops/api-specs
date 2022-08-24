@@ -30,19 +30,19 @@ collections:
   docs:
     output: true
     permalink: /:collection/:name
-  club_endpoint:
+  club-endpoint:
     output: true
     permalink: /:collection/:name
-  comment_endpoint:
+  comment-endpoint:
     output: true
     permalink: /:collection/:name
-  post_endpoint:
+  post-endpoint:
     output: true
     permalink: /:collection/:name
-  user_endpoint:
+  user-endpoint:
     output: true
     permalink: /:collection/:name
-  release_notes:
+  release-notes:
     output: true
     permalink: /:collection/:name
 

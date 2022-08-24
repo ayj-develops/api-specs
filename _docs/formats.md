@@ -9,6 +9,8 @@ All responses in the API share a common response object format, for consistency 
 
 Specific fields are added on top of the common response object for certain endpoints. While they differ, endpoint specific response objects still contain the required common object fields and may contain the optional common object fields.
 
+All responses will come with a top level `ok` field that indicates `True` or `False` for the success of the request.
+
 ### Fields
 
 |             |                                                                                                                          |

@@ -3,6 +3,8 @@ links:
     url: /general
   - title: Authentication
     url: /docs/authentication
+  - title: Endpoints
+    url: /docs/endpoints
   - title: Errors
     url: /docs/errors
   - title: Request and Response Formats
