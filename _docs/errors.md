@@ -9,7 +9,7 @@ The AYJ Club Platform API uses the following error codes and statuses to indicat
 
 ## Authentication
 
-Errors that arise from authentication flows are documented in the [authentication]() documentation page, and contain a specific set of error types.
+Errors that arise from authentication flows are documented in the [authentication]({% link _docs/authentication.md %}) documentation page, and contain a specific set of error types.
 
 ## Status Code Summary
 
@@ -40,4 +40,4 @@ Each error given by the AYJ Club Platform API has a type attribute. This error t
 | parameter_taken       | 409  | The resource field already exists                                             |
 | not_found             | 404  | The resource doesn't exist or it can't be accessed by the server              |
 
-Please refer to the [response formats]() to see an example of an error response.
+Please refer to the [response formats]({% link _docs/formats.md %}) to see an example of an error response.
