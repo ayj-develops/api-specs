@@ -22,7 +22,6 @@ The following API endpoints are used to programmatically create, retrieve, updat
 | [clubs/{id}/posts]({{ site.baseurl }}/club-endpoint/clubs-id-posts)                                          | Get all posts with the given club's id in the post's club field         |
 | [clubs/{id}/delete]({{ site.baseurl }}/club-endpoint/clubs-id-delete)                                        | Deletes a club identified by the id                                     |
 | [clubs/{id}/update]({{ site.baseurl }}/club-endpoint/clubs-id-update)                                        | Updates the given club                                                  |
-| [clubs/{id}/socials/update]({{ site.baseurl }}/club-endpoint/clubs-id-socials-update)                        | Updates the given club's socials object                                 |
 | [clubs/{id}/teachers/new]({{ site.baseurl }}/club-endpoint/clubs-id-teachers-new)                            | Adds a new teacher to the given club                                    |
 | [clubs/{id}/teachers/{name}/delete]({{ site.baseurl }}/club-endpoint/clubs-id-teachers-name-delete)          | Deletes a teacher identified by the teacher name in the given club      |
 | [clubs/{id}/executives/new]({{ site.baseurl }}/club-endpoint/clubs-id-executives-new)                        | Adds an executive to the given club                                     |
