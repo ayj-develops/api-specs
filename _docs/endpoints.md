@@ -27,6 +27,8 @@ The following API endpoints are used to programmatically create, retrieve, updat
 | [clubs/{id}/members]({{ site.baseurl }}/club-endpoint/clubs-id-members)                     | Gets all club members                                                   |
 | [clubs/{id}/members/add]({{ site.baseurl }}/club-endpoint/clubs-id-members-add)             | Adds a new club member to the given club                                |
 | [clubs/{id}/members/delete]({{ site.baseurl }}/club-endpoint/clubs-id-members-delete)       | Deletes a club member from the given club                               |
+| [clubs/{id}/favourite]({{ site.baseurl }}/club-endpoint/clubs-id-favourite)                 | Adds the given club to the authenticated user's favourite club list     |
+| [clubs/{id}/unfavourite]({{ site.baseurl }}/club-endpoint/clubs-id-unfavourite)             | Removes the given club to the authenticated user's favourite club list  |
 
 
 ## Post Object
