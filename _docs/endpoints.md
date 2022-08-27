@@ -14,21 +14,21 @@ The following API endpoints are used to programmatically create, retrieve, updat
 
 ## Club Object
 
-|                                                                                             |                                                                         |
-| ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| [clubs]({{ site.baseurl }}/club-endpoint/clubs)                                             | Get all clubs                                                           |
-| [clubs/create]({{ site.baseurl }}/club-endpoint/clubs-create)                               | Creates a new club                                                      |
-| [clubs/{id}]({{ site.baseurl }}/club-endpoint/clubs-id)                                     | Gets a club identified by the id                                        |
-| [clubs/{id}/posts]({{ site.baseurl }}/club-endpoint/clubs-id-posts)                         | Get all posts with the given club's id in the post's club field         |
-| [clubs/{id}/delete]({{ site.baseurl }}/club-endpoint/clubs-id-delete)                       | Deletes a club identified by the id                                     |
-| [clubs/{id}/update]({{ site.baseurl }}/club-endpoint/clubs-id-update)                       | Updates the given club                                                  |
-| [clubs/{id}/executives/new]({{ site.baseurl }}/club-endpoint/clubs-id-executives-new)       | Adds an executive to the given club                                     |
-| [clubs/{id}/executives/delete]({{ site.baseurl }}/club-endpoint/clubs-id-executives-delete) | Deletes an executive identified by the User object id in the given club |
-| [clubs/{id}/members]({{ site.baseurl }}/club-endpoint/clubs-id-members)                     | Gets all club members                                                   |
-| [clubs/{id}/members/add]({{ site.baseurl }}/club-endpoint/clubs-id-members-add)             | Adds a new club member to the given club                                |
-| [clubs/{id}/members/delete]({{ site.baseurl }}/club-endpoint/clubs-id-members-delete)       | Deletes a club member from the given club                               |
-| [clubs/{id}/favourite]({{ site.baseurl }}/club-endpoint/clubs-id-favourite)                 | Adds the given club to the authenticated user's favourite club list     |
-| [clubs/{id}/unfavourite]({{ site.baseurl }}/club-endpoint/clubs-id-unfavourite)             | Removes the given club to the authenticated user's favourite club list  |
+|                                                                                             |                                                                          |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [clubs]({{ site.baseurl }}/club-endpoint/clubs)                                             | Get all clubs                                                            |
+| [clubs/create]({{ site.baseurl }}/club-endpoint/clubs-create)                               | Creates a new club                                                       |
+| [clubs/{id}]({{ site.baseurl }}/club-endpoint/clubs-id)                                     | Gets a club identified by the id                                         |
+| [clubs/{id}/posts]({{ site.baseurl }}/club-endpoint/clubs-id-posts)                         | Get all posts with the given club's id in the post's club field          |
+| [clubs/{id}/delete]({{ site.baseurl }}/club-endpoint/clubs-id-delete)                       | Deletes a club identified by the id                                      |
+| [clubs/{id}/update]({{ site.baseurl }}/club-endpoint/clubs-id-update)                       | Updates the given club                                                   |
+| [clubs/{id}/executives/new]({{ site.baseurl }}/club-endpoint/clubs-id-executives-new)       | Adds an executive to the given club                                      |
+| [clubs/{id}/executives/delete]({{ site.baseurl }}/club-endpoint/clubs-id-executives-delete) | Deletes an executive identified by the User object id in the given club  |
+| [clubs/{id}/members]({{ site.baseurl }}/club-endpoint/clubs-id-members)                     | Gets all club members                                                    |
+| [clubs/{id}/members/add]({{ site.baseurl }}/club-endpoint/clubs-id-members-add)             | Adds a new club member to the given club                                 |
+| [clubs/{id}/members/delete]({{ site.baseurl }}/club-endpoint/clubs-id-members-delete)       | Deletes a club member from the given club                                |
+| [clubs/{id}/favourite]({{ site.baseurl }}/club-endpoint/clubs-id-favourite)                 | Adds the given club to the authenticated user's favourite club list      |
+| [clubs/{id}/unfavourite]({{ site.baseurl }}/club-endpoint/clubs-id-unfavourite)             | Removes the given club from the authenticated user's favourite club list |
 
 
 ## Post Object
