@@ -7,10 +7,6 @@ layout: api
 ## Description
 
 
-## Filters
-
-| ?type= | posts, comments  | filters the liked objects | 
-
 ## Example
 
 ### Request

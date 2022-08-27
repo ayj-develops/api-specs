@@ -50,16 +50,16 @@ The following API endpoints are used to programmatically create, retrieve, updat
 
 ## User Object
 
-|                                                                               |                                                         |
-| ----------------------------------------------------------------------------- | ------------------------------------------------------- |
-| [users]({{ site.baseurl }}/user-endpoint/users)                               | Gets all users                                          |
-| [users/create]({{ site.baseurl }}/user-endpoint/users-create)                 | Creates a new user                                      |
-| [users/{id}]({{ site.baseurl }}/user-endpoint/users-id)                       | Gets a user identified by id                            |
-| [users/{id}/delete]({{ site.baseurl }}/user-endpoint/users-id-delete)         | Deletes a user identified by id                         |
-| [users/{id}/comments]({{ site.baseurl }}/user-endpoint/users-id-comments)     | Gets a given user's comments                            |
-| [users/{id}/favourites]({{ site.baseurl }}/user-endpoint/users-id-favourites) | Gets a given user's favourite posts                     |
-| [users/{id}/posts]({{ site.baseurl }}/user-endpoint/users-id-posts)           | Gets a given user's posts                               |
-| [users/{id}/liked]({{ site.baseurl }}/user-endpoint/users-id-liked)           | Gets a given user's liked posts or comments, filterable |
+|                                                                               |                                                          |
+| ----------------------------------------------------------------------------- | -------------------------------------------------------- |
+| [users]({{ site.baseurl }}/user-endpoint/users)                               | Gets all users                                           |
+| [users/create]({{ site.baseurl }}/user-endpoint/users-create)                 | Creates a new user                                       |
+| [users/{id}]({{ site.baseurl }}/user-endpoint/users-id)                       | Gets a user identified by id                             |
+| [users/{id}/delete]({{ site.baseurl }}/user-endpoint/users-id-delete)         | Deletes a user identified by id                          |
+| [users/{id}/comments]({{ site.baseurl }}/user-endpoint/users-id-comments)     | Gets a given user's comments                             |
+| [users/{id}/favourites]({{ site.baseurl }}/user-endpoint/users-id-favourites) | Gets a given user's favourite posts or clubs, filterable |
+| [users/{id}/posts]({{ site.baseurl }}/user-endpoint/users-id-posts)           | Gets a given user's posts                                |
+| [users/{id}/liked]({{ site.baseurl }}/user-endpoint/users-id-liked)           | Gets a given user's liked comments                       |
 
 
 ## Comment Object
