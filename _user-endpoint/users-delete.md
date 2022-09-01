@@ -1,5 +1,5 @@
 ---
-title: /users/{id}/delete
+title: /users/delete
 request_type: DELETE
 layout: api
 ---

@@ -42,6 +42,9 @@ collections:
   user-endpoint:
     output: true
     permalink: /:collection/:name
+  admin-endpoint:
+    output: true
+    permalink: /:collection/:name
   release-notes:
     output: true
     permalink: /:collection/:name

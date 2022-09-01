@@ -39,6 +39,7 @@ Each error given by the AYJ Club Platform API has a type attribute. This error t
 | access_denied         | 403  | The client's request does not meet the permission level required              |
 | parameter_taken       | 409  | The resource field already exists                                             |
 | not_found             | 404  | The resource doesn't exist or it can't be accessed by the server              |
+| too_many_requests     | 429  | Too many requests                                                             |
 | server_error          | 500  | Something went wrong with the server                                          |
 
 Please refer to the [response formats]({% link _docs/formats.md %}) to see an example of an error response.

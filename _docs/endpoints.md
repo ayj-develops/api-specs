@@ -50,16 +50,16 @@ The following API endpoints are used to programmatically create, retrieve, updat
 
 ## User Object
 
-|                                                                               |                                                          |
-| ----------------------------------------------------------------------------- | -------------------------------------------------------- |
-| [users]({{ site.baseurl }}/user-endpoint/users)                               | Gets all users                                           |
-| [users/create]({{ site.baseurl }}/user-endpoint/users-create)                 | Creates a new user                                       |
-| [users/{id}]({{ site.baseurl }}/user-endpoint/users-id)                       | Gets a user identified by id                             |
-| [users/{id}/delete]({{ site.baseurl }}/user-endpoint/users-id-delete)         | Deletes a user identified by id                          |
-| [users/{id}/comments]({{ site.baseurl }}/user-endpoint/users-id-comments)     | Gets a given user's comments                             |
-| [users/{id}/favourites]({{ site.baseurl }}/user-endpoint/users-id-favourites) | Gets a given user's favourite posts or clubs, filterable |
-| [users/{id}/posts]({{ site.baseurl }}/user-endpoint/users-id-posts)           | Gets a given user's posts                                |
-| [users/{id}/liked]({{ site.baseurl }}/user-endpoint/users-id-liked)           | Gets a given user's liked comments                       |
+|                                                                          |                                                                            |
+| ------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
+| [users]({{ site.baseurl }}/user-endpoint/users)                          | Gets all users                                                             |
+| [users/create]({{ site.baseurl }}/user-endpoint/users-create)            | Creates a new user                                                         |
+| [users/user]({{ site.baseurl }}/user-endpoint/users-user)                | Get the current authenticated user's data                                  |
+| [users/delete]({{ site.baseurl }}/user-endpoint/users-delete)            | Deletes the current authenticated user                                     |
+| [users/comments]({{ site.baseurl }}/user-endpoint/users-comments)        | Gets the current authenticated user's comments                             |
+| [users/favourites]({{ site.baseurl }}/user-endpoint/users-id-favourites) | Gets the current authenticated user's favourite posts or clubs, filterable |
+| [users/posts]({{ site.baseurl }}/user-endpoint/users-id-posts)           | Gets the current authenticated user's posts                                |
+| [users/liked]({{ site.baseurl }}/user-endpoint/users-id-liked)           | Gets the current authenticated user's liked comments                       |
 
 
 ## Comment Object
@@ -76,3 +76,15 @@ The following API endpoints are used to programmatically create, retrieve, updat
 
 ## Interactions
 
+<!--
+## Admin level endpoints
+
+|                                |                                                  |
+| ------------------------------ | ------------------------------------------------ |
+| [admin/roles]                  | Get all roles                                    |
+| [admin/roles/new]              | Create a new role with permissions               |
+| [admin/roles/user/{id}/update] | Update an existing user with the following roles |
+
+Jump to [authentication]({% link _docs/authentication.md#admin-level-endpoints %}) for admin level endpoints
+
+ --->
